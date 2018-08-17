@@ -34,6 +34,10 @@ To publish:
 
     1. npm run start
 
+#### Testing (using Jest with Enyzme)
+
+      1. npm run test
+
 #### Structure
 
     <pre>
