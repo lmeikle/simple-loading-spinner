@@ -11,4 +11,6 @@ const LoadingComponent = () => (
   </div>
 );
 
+LoadingComponent.displayName = 'LoadingComponent';
+
 export default LoadingComponent;

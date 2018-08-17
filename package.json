@@ -1,6 +1,6 @@
 {
   "name": "@lmeikle/simple-loading-spinner",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Renders a simple react loading spinner",
   "main": "dist/index.js",
   "repository": {
@@ -35,7 +35,9 @@
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
   },
-  "keywords": ["simple react loading spinner"],
+  "keywords": [
+    "simple react loading spinner"
+  ],
   "jest": {
     "verbose": false,
     "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
@@ -44,6 +46,8 @@
       "^.+\\.css$": "<rootDir>/jest/cssTransform.js",
       "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"]
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ]
   }
 }
